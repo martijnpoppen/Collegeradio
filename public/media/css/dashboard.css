@@ -1,0 +1,168 @@
+body{
+	font-family: helvetica;
+}
+/*Left-Dashboard========================================*/
+.left-dashboard{
+	position: fixed;
+	left:0;
+	top:0;
+	height: 100%;
+	width: 200px;
+	background-color: #BF267A;
+}
+
+h1.logo{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+div.category{
+	
+}
+
+h2.category-title{
+	color: white;
+	text-align: left;
+	font-size: 1.1em;
+	margin:5px;
+	text-transform: uppercase;
+}
+
+a.category-title-add{
+	float: right;
+	color: white;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1em;
+	font-style: italic
+}
+
+a.category-title-add:hover{
+	text-decoration: underline;
+}
+
+ul.category-list{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+li.category-list-item{
+	background: #333;
+	padding:8px;
+	margin:0;
+	color: white;
+	border-bottom: 1px solid white;
+	font-size: 1em;
+}
+
+li.category-list-item a {
+	float: right;
+	margin-right: 15px;
+	color: white;
+}
+
+li.category-list-item-active{
+	background: #111;
+	padding:10px;
+	margin:0;
+	color: white;
+}
+
+.cms-footer-title{
+	color:white;
+	text-align: center;
+	padding: 0;
+	text-transform: uppercase;
+}
+.btn-login {
+    color: #ffffff;
+    background-color: #bf267a;
+    border: none;
+    width: 105px;
+    height: 37.5px;
+    margin-top:5px;
+    float: left;
+}
+.btn-login:hover {
+    color: #ffffff;
+    background-color: #cf378b;
+    border: none;
+}
+.btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 6px;
+}
+/*Content========================================*/
+.content-container{
+	margin-top:10%;
+}
+div.top-bar{
+	position: fixed;
+	top:0;
+	left: 200px;
+	height: 52px;
+	background: #555;
+	width: 100%;
+	padding: 5px;
+	text-indent: 5px;
+}
+
+div.top-bar-content{
+
+}
+
+div.top-bar-breadcrumb p{
+	color: #269DBF;
+	padding: 10px;
+}
+
+a.a-topbar-breadcrumb{
+	color: #269DBF;
+	text-decoration: none;
+}
+
+a.a-topbar-breadcrumb:hover{
+	text-decoration: underline;
+}
+
+div.content-wrapper{
+	position: relative;
+
+	padding-left:25%;
+	padding-right: 25%;
+	padding-top:5%; 
+}
+
+/*POSTS==========================================*/
+div.post{
+	padding:10px;
+	margin:0 auto;
+}
+div.post-title-bar{
+	background: #BF267A;
+	padding:10px;
+	border-bottom:1px solid;
+	margin-top:1px;
+}
+div.post > button { 
+	margin-top:10px;
+	float:right;
+	color:white;
+	width: 100px;
+	height: 50px;
+	background: #BF267A;
+	border-radius: 5px;
+	border: 1px solid #BF267A;
+}
+h2.post-title{
+	color: white;
+	text-align: left;
+	font-size: 1.1em;
+	margin:5px;
+	text-transform: uppercase;
+}
+

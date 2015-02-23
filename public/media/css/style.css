@@ -1,0 +1,556 @@
+/*========BASICS=======================================*/
+html,body {
+    font-family: Helvetica Neue, Helvetica;
+}
+
+h2 {
+    color: #C40090;
+    text-transform: uppercase;
+}
+a {
+    color: #FFFFFF;
+}
+a:hover {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+hr {
+    border: 1px solid #ccc;
+}
+
+img{
+    border: none;
+}
+
+input{
+    width: 100%;
+    height:45px;
+    padding:10px;
+}
+/*========LOGIN-FORM======================================*/
+
+ul.login-form{ 
+    list-style-type: none;
+
+}
+
+.btn-login {
+    color: #ffffff;
+    background-color: #bf267a;
+    border: none;
+    width: 189px;
+    height: 49.5px;
+    margin-top:5px;
+    float: left;
+}
+.btn-login:hover {
+    color: #ffffff;
+    background-color: #cf378b;
+    border: none;
+}
+
+body.login{
+    background: #c9c9c9;
+}
+
+
+/*========OVERRIDES=======================================*/
+.flexslider{
+    margin:0!important;
+    border:none!important;
+}
+.container-full { 
+    margin:0 auto;
+    width: 100%;
+}
+.col-md-4 img {
+    margin-top: 30px;
+}
+button.glyphicon-search {
+    background: none;
+    background-image:none;
+    border:none;
+    font-size: 30px;
+    margin-left:60px;
+}
+/*========CUSTOM CLASSES=======================================*/
+
+.player{
+    position: absolute;
+    z-index:7;
+    top:80px;
+    left: 20px;
+}
+
+.col-centered{
+margin: 0 auto;
+}
+iframe.yt{
+    width: 100%;
+    height: 500px;
+}
+.header-image{
+    margin-top:67px;
+}
+.wrap{
+    min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+.logo {
+    margin-left: 20%;
+}
+.logo img{
+    margin-top:3px;
+    max-width: 105px;
+}
+
+.breadcrumb {
+    padding: 25px 0px 0px 0px;
+    background: none;
+}
+.post {
+
+    margin:20px;
+    padding:20px;
+}
+.hr {
+    min-height: 22px;
+    margin-top: 60px;
+    float: left;
+}
+.breadcrumb-hr{
+    border:1px solid #F0F0F0;
+    margin-top:24px;
+}
+
+div.hosts{
+
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+
+
+    flex-direction:row;
+}
+div.host img {
+    flex:1;
+    padding:10px;
+}
+div.host{
+    margin-left: 40px;
+    text-align: center;
+}
+div.host p { 
+    padding:10px;
+    color: #C40090;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.circle-host{
+    float:left;
+    max-height:150px;
+    max-width:150px;
+}
+
+
+/*========Navbar=======================================*/
+.navbar-inverse {
+    background-color: #595959;
+    border: 1px solid #595959;
+    max-height: 67px;
+}
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-nav {
+    /*max-height: 67px;*/
+}
+.navbar-inverse .navbar-nav li div {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.navbar-inverse .navbar-nav li a div:hover {
+    color: #C40090;
+}
+.active {
+    color: #C40090 !important;
+}
+.navbar-nav li a {
+    padding: 8px;
+}
+.navbar-inverse .navbar-nav li a {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav li {
+    margin-left:0px;
+    max-height: 67px;
+    text-align: center;
+}
+
+/*NAVBAR TOGGLE===============================================*/
+
+
+.icon-bar{
+    background-color:#000!important;
+    width: 35px!important;
+    height: 5px!important;
+}
+.icon-bar:hover{
+    background-color:#C40090!important;
+}
+
+.navbar-collapse{/*padding-left:12%!important;*/}
+.navbar-header{
+    position: absolute;
+    top:10px;
+    right: 10px
+}
+.navbar-toggle{
+    border: none;
+    padding: 2px; 
+}
+.navbar-toggle:hover{
+    background: none;
+}
+
+
+/*========FORM & BUTTON=======================================*/
+.btn-default {
+    color: #ffffff;
+    background-color: #bf267a;
+    border: none;
+    width: 189px;
+    height: 49.5px;
+    float: right;
+}
+.btn-default:hover {
+    color: #ffffff;
+    background-color: #cf378b;
+    border: none;
+}
+
+.btn-succes {
+    color: #ffffff;
+    background-color: #bf267a;
+    border: none;
+    width: 86px;
+    height: 40px;
+}
+.btn-succes:hover {
+    color: #ffffff;
+    background-color: #cf378b;
+    border: none;
+}
+.btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+.form-control {
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+}
+.navbar-form {
+    padding: 5px;
+    float: left;
+}
+
+.social-logo{
+    max-width: 70px;
+    float: left;
+    margin-left:5px;
+}
+
+
+/*========FOOTER=======================================*/
+
+.footer-wrapper{
+
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+}
+.footer-menu-container{
+    flex:2;
+}
+.copy{
+    flex:2;
+}
+.social-wrap{
+    
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+
+    align-items: center;
+}
+.social-div{
+    flex:2;
+}
+footer {
+    position: relative;
+    padding:50px;
+    margin: 0;
+    color: #fff;
+    background-color: #bf267a;
+    font-size: 20px;
+}
+footer img {
+    padding-top: 50px;
+}
+
+footer p {
+    padding-top: 75px;
+}
+.footer-info {
+    padding-top: 15px;
+    color: #610648;
+    font-size: 180px;
+    
+}
+.footer-menu li {
+    padding-top: 10px;
+    text-align: left;
+    list-style: none outside none;
+}
+
+
+
+
+/*========MEDIA QUERIES===========================================*/
+
+/*========ODD 770px and 990=======================================*/
+@media all and (min-width: 770px) and (max-width: 990px){
+    .logo{float: left;}
+    .navbar-nav{
+        float: left;
+        margin-left: 175px;
+        margin-right: 100px;
+    }
+   .navbar-inverse .navbar-nav li {
+        margin-left:15px!important;
+    }
+
+}
+
+/*========DESKTOP SD 1200px =======================================*/
+@media all and (max-width: 1200px){
+
+    .navbar-inverse .navbar-nav li {
+        margin-left:0px;
+    }
+    .navbar li { font-size: 10px;}
+    input.search{width: 80px!important;}
+
+    .circle-host{
+            height: 140px;
+            width: 140px;
+            margin-left: 7px;
+    }
+    .social-logo{max-width: 58px;}
+
+}
+
+/*========TABLET LANDSCAPE 1024px =================================*/
+
+@media all and (max-width: 1024px){
+   
+
+    .logo {
+        margin-left:0px!important;
+    }
+    .logo img{
+        max-width: 90%;
+        margin:0;
+    }
+    
+    .circle-host{
+        height: 140px;
+        width: 140px;
+        margin-left: 7px;
+    }
+    .navbar-collapse{}
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        float:left;
+    }
+    .navbar-inverse{padding-left:0px!important;}
+    .navbar li {
+        margin-left: 50px;
+    }
+}
+
+/*========TABLET Portrait 768px =======================================*/
+
+@media all and (max-width: 768px){
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        float:none;
+    }
+    .logo {
+        margin-left:0px!important;
+    }
+    .logo img{
+        max-width: 90%;
+        margin:0;
+    }
+    
+    .breadcrumb{display: none;}
+    .breadcrumb-hr{display: none;}
+
+
+    /*MOBILE MENU==============================================*/
+    .navbar,.navbar-collapse{
+        margin:0!important;.col-centered{
+float: none;
+margin: 0 auto;
+}
+        padding:0!important;
+        border: none;
+    }
+
+    .navbar-toggle:focus{
+        background-color: none!important;
+        background: none!important;
+    }
+    .navbar-toggle:hover{
+        background-color: none!important;
+        background: none!important;
+    }
+
+    .navbar-inverse{padding-left:0px!important;}
+
+
+    ul.nav{
+        overflow: hidden;
+        margin:0;
+        padding:0;
+    }
+    .navbar li { 
+        background: #595959;
+        overflow: hidden;
+        text-align: left!important;
+        font-size: 1.5em;
+        padding: 10px;
+        border-top:1px solid #444;
+        border-bottom:1px solid #444;
+
+    }
+    .navbar li:hover{
+        background: #C40090;
+    }
+    
+
+    /*HOSTS======================================================================*/
+
+    div.hosts{
+
+    }
+    div.host {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .circle-host{
+        width: 100px;
+        height: 100px;
+        margin-left: 7px;
+    }
+   
+}
+
+/*========Mobile Portrait 450px =======================================*/
+@media all and (max-width: 450px) {
+
+    iframe.yt{
+        height: 200px;
+    }
+  
+    .footer-info{display: none;}
+    footer p{
+        font-size: 16px;
+    }
+    .social-div{
+        margin-left: 60px;
+    }
+    .logo {
+        margin-left:0px!important;
+    }
+    .logo img{
+        max-width: 90%;
+        margin:0;
+    }
+    .breadcrumb{display: none;}
+    .breadcrumb-hr{display: none;}
+
+
+    /*MOBILE MENU==============================================*/
+    ul.footer-menu {padding:0;}
+    .footer-menu > li { text-align: center; }
+    .navbar,.navbar-collapse{
+        margin:0!important;
+        padding:0!important;
+        border: none;
+    }
+
+    .navbar-toggle:focus{
+        background-color: none!important;
+        background: none!important;
+    }
+    .navbar-toggle:hover{
+        background-color: none!important;
+        background: none!important;
+    }
+
+
+    ul.nav{
+        overflow: hidden;
+        margin:0;
+        padding:0;
+    }
+    .navbar li { 
+        background: #595959;
+        overflow: hidden;
+        text-align: left!important;
+        font-size: 1.5em;
+        padding: 10px;
+        border-top:1px solid #444;
+        border-bottom:1px solid #444;
+
+    }
+    .navbar li:hover{
+        background: #C40090;
+    }
+    
+    /*HOSTS=====================================================*/
+    div.host{
+        margin-left:0px;
+    }
+    div.host p { 
+        font-size: 0.6em;
+        margin-left:7px;
+    }
+    .circle-host{
+        height: 60px;
+        width: 60px;
+        margin-left: 7px;
+    }
+
+
+}
+
